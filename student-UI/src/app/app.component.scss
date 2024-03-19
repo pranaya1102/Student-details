@@ -1,0 +1,22 @@
+.Parent{
+    background-color: rgb(231, 236, 241);
+    margin-top: 1rem;
+}
+.filters{
+    
+    width: 30% !important;
+}
+.table-container {
+    overflow-x: auto;
+    
+  }
+  .search-bar {
+    margin-bottom: 1rem;
+    width: 35%;
+    display: flex;
+    align-items: center;
+  }
+  .search-field, .search-value {
+    flex: 1;
+    margin-right: 1rem;
+  }

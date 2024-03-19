@@ -1,0 +1,52 @@
+// collection details
+name
+age
+gender
+roll no
+class
+    blood group
+marks
+address
+contact number
+
+-----------------------
+
+
+    API
+
+
+filter = [age, class, bloodGroup, gender] // payload
+search_field = [name, roll no]
+search_value
+
+
+
+
+{
+
+    search: {
+        "key": "",
+            "value"
+    },
+
+    bloodGroups: [],
+
+        classes: [],
+
+            age: {
+
+        startAge: '',
+
+            endAge: ''
+
+    }
+
+}
+
+
+
+
+filter_options
+// marks
+// id
+// 
