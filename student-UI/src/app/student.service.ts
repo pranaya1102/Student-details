@@ -7,7 +7,7 @@ export class StudentService {
   constructor(private httpClient: HttpClient) {}
   searchStudent(queryParams: any, body: any) {
     const URL =
-      'http://localhost:8000/student?' +
+      'https://student-details-2van.onrender.com/student?' +
       `limit=${queryParams.limit}&offset=${queryParams.offset}`;
     return this.httpClient.post(URL, body);
   }
